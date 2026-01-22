@@ -1,10 +1,24 @@
 # Ecommerce Microservices (Clean Architecture)
 
-This project is part of my learning journey for building microservices using ASP.NET Core + Clean Architecture.
+Learning project for building microservices using **ASP.NET Core** and **Clean Architecture**.
 
-## Services
-- Catalog Service
+## ✅ Services
+- **Catalog API** (ASP.NET Core Web API)
+- **MongoDB** (Catalog Database)
 
-## Run using Docker Compose
+## 📁 Project Structure
+- `services/catalog/`
+  - `Catalog.API`
+  - `Catalog.Application`
+  - `Catalog.Core`
+  - `Catalog.Infrastructure`
+- `docker-compose.yml`
+
+---
+
+## 🚀 Run with Docker Compose
+
+From the project root:
+
 ```bash
-docker compose -f docker-compose/docker-compose.yml up --build
+docker compose up --build
