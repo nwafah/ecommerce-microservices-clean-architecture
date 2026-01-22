@@ -1,0 +1,242 @@
+[
+  {
+    "Id": "602d2149e773f2a3998b4810",
+    "Name": "Nike Mercurial Superfly Football Boots",
+    "Description": "Precision-engineered for speed and agility on the pitch, with textured upper for superior ball control.",
+    "Price": 4500,
+    "ImageFile": "images/products/nike_football_1.png",
+    "Summary": "Nike Mercurial Superfly Football Boots",
+    "Type": {
+      "Id": "63ca5d7d380402dce7f06ebc",
+      "Name": "Football"
+    },
+    "Brand": {
+      "Id": "63ca5e7ec90ff5c8f44d5ac8",
+      "Name": "Nike"
+    }
+  },
+  {
+    "Id": "602d2149e773f2a3998b4811",
+    "Name": "Yonex Nanoflare 700 Badminton Racket",
+    "Description": "Ultra-lightweight racket with excellent maneuverability, ideal for fast attacking play.",
+    "Price": 2800,
+    "ImageFile": "images/products/yonex_racket_1.png",
+    "Summary": "Yonex Nanoflare 700 Badminton Racket",
+    "Type": {
+      "Id": "63ca5d6d958e43ee1cd375fe",
+      "Name": "Rackets"
+    },
+    "Brand": {
+      "Id": "63ca5e655ec1fdc49bd9327d",
+      "Name": "Yonex"
+    }
+  },
+  {
+    "Id": "602d2149e773f2a3998b4812",
+    "Name": "Adidas Team Backpack Kit Bag",
+    "Description": "Durable and spacious kit bag with multiple compartments for shoes, clothes, and equipment.",
+    "Price": 1200,
+    "ImageFile": "images/products/adidas_kitbag_1.png",
+    "Summary": "Adidas Team Backpack Kit Bag",
+    "Type": {
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Kit Bags"
+    },
+    "Brand": {
+      "Id": "63ca5e40e0aa3968b549af53",
+      "Name": "Adidas"
+    }
+  },
+  {
+    "Id": "602d2149e773f2a3998b4813",
+    "Name": "Puma Future Z 1.4 Football Cleats",
+    "Description": "Dynamic fit collar and adaptive grip zone for responsive movement and excellent traction.",
+    "Price": 3800,
+    "ImageFile": "images/products/puma_football_1.png",
+    "Summary": "Puma Future Z 1.4 Football Cleats",
+    "Type": {
+      "Id": "63ca5d7d380402dce7f06ebc",
+      "Name": "Football"
+    },
+    "Brand": {
+      "Id": "63ca5e728c4cff9708ada2a6",
+      "Name": "Puma"
+    }
+  },
+  {
+    "Id": "602d2149e773f2a3998b4814",
+    "Name": "Victor Auraspeed 90S Badminton Racket",
+    "Description": "Stiff shaft and head-heavy balance for powerful smashes and aggressive play style.",
+    "Price": 3100,
+    "ImageFile": "images/products/victor_racket_1.png",
+    "Summary": "Victor Auraspeed 90S Badminton Racket",
+    "Type": {
+      "Id": "63ca5d6d958e43ee1cd375fe",
+      "Name": "Rackets"
+    },
+    "Brand": {
+      "Id": "63ca5e59065163c16451bd73",
+      "Name": "Victor"
+    }
+  },
+  {
+    "Id": "602d2149e773f2a3998b4815",
+    "Name": "ASICS Gel-Resolution 9 Tennis Shoes",
+    "Description": "Excellent stability and cushioning for lateral movements, suitable for indoor court sports.",
+    "Price": 3600,
+    "ImageFile": "images/products/asics_shoes_1.png",
+    "Summary": "ASICS Gel-Resolution 9 Tennis Shoes",
+    "Type": {
+      "Id": "63ca5d4bc3a8a58f47299f97",
+      "Name": "Shoes"
+    },
+    "Brand": {
+      "Id": "63ca5e4c455900b990b43bc1",
+      "Name": "ASICS"
+    }
+  },
+  {
+    "Id": "602d2149e773f2a3998b4816",
+    "Name": "Nike Sport Series Duffel Bag",
+    "Description": "Water-resistant duffel bag with shoulder strap and ventilated shoe compartment.",
+    "Price": 1400,
+    "ImageFile": "images/products/nike_kitbag_1.png",
+    "Summary": "Nike Sport Series Duffel Bag",
+    "Type": {
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Kit Bags"
+    },
+    "Brand": {
+      "Id": "63ca5e7ec90ff5c8f44d5ac8",
+      "Name": "Nike"
+    }
+  },
+  {
+    "Id": "602d2149e773f2a3998b4817",
+    "Name": "Adidas Predator Accuracy Football",
+    "Description": "Official match ball with enhanced grip and precision for consistent performance.",
+    "Price": 900,
+    "ImageFile": "images/products/adidas_football_1.png",
+    "Summary": "Adidas Predator Accuracy Football",
+    "Type": {
+      "Id": "63ca5d7d380402dce7f06ebc",
+      "Name": "Football"
+    },
+    "Brand": {
+      "Id": "63ca5e40e0aa3968b549af53",
+      "Name": "Adidas"
+    }
+  },
+  {
+    "Id": "602d2149e773f2a3998b4818",
+    "Name": "Babolat Pure Drive Tennis Racket",
+    "Description": "Powerful and responsive racket ideal for intermediate to advanced players.",
+    "Price": 3300,
+    "ImageFile": "images/products/babolat_racket_1.png",
+    "Summary": "Babolat Pure Drive Tennis Racket",
+    "Type": {
+      "Id": "63ca5d6d958e43ee1cd375fe",
+      "Name": "Rackets"
+    },
+    "Brand": {
+      "Id": "63ca5e8d6110a9c56ee7dc48",
+      "Name": "Babolat"
+    }
+  },
+  {
+    "Id": "602d2149e773f2a3998b4819",
+    "Name": "Puma Evopower Vigor 3 Indoor Shoes",
+    "Description": "Designed for indoor courts with non-marking rubber sole and supportive upper.",
+    "Price": 2900,
+    "ImageFile": "images/products/puma_shoes_1.png",
+    "Summary": "Puma Evopower Vigor 3 Indoor Shoes",
+    "Type": {
+      "Id": "63ca5d4bc3a8a58f47299f97",
+      "Name": "Shoes"
+    },
+    "Brand": {
+      "Id": "63ca5e728c4cff9708ada2a6",
+      "Name": "Puma"
+    }
+  },
+  {
+    "Id": "602d2149e773f2a3998b4820",
+    "Name": "Yonex Team Pro Shuttle Bag",
+    "Description": "Large capacity bag with dedicated compartments for rackets, shuttlecocks, and apparel.",
+    "Price": 1600,
+    "ImageFile": "images/products/yonex_kitbag_1.png",
+    "Summary": "Yonex Team Pro Shuttle Bag",
+    "Type": {
+      "Id": "63ca5d8849bc19321b8be5f1",
+      "Name": "Kit Bags"
+    },
+    "Brand": {
+      "Id": "63ca5e655ec1fdc49bd9327d",
+      "Name": "Yonex"
+    }
+  },
+  {
+    "Id": "602d2149e773f2a3998b4821",
+    "Name": "ASICS Gel-Rocket 10 Volleyball Shoes",
+    "Description": "Cushioned midsole and durable outsole for multi-directional movements on indoor courts.",
+    "Price": 3200,
+    "ImageFile": "images/products/asics_shoes_2.png",
+    "Summary": "ASICS Gel-Rocket 10 Volleyball Shoes",
+    "Type": {
+      "Id": "63ca5d4bc3a8a58f47299f97",
+      "Name": "Shoes"
+    },
+    "Brand": {
+      "Id": "63ca5e4c455900b990b43bc1",
+      "Name": "ASICS"
+    }
+  },
+  {
+    "Id": "602d2149e773f2a3998b4822",
+    "Name": "Nike Phantom GT2 Academy FG Football",
+    "Description": "Textured surface for enhanced ball control in various weather conditions.",
+    "Price": 850,
+    "ImageFile": "images/products/nike_football_2.png",
+    "Summary": "Nike Phantom GT2 Academy FG Football",
+    "Type": {
+      "Id": "63ca5d7d380402dce7f06ebc",
+      "Name": "Football"
+    },
+    "Brand": {
+      "Id": "63ca5e7ec90ff5c8f44d5ac8",
+      "Name": "Nike"
+    }
+  },
+  {
+    "Id": "602d2149e773f2a3998b4823",
+    "Name": "Victor Hypernano X Shoes",
+    "Description": "Lightweight badminton shoes with energy-return midsole and breathable mesh.",
+    "Price": 3400,
+    "ImageFile": "images/products/victor_shoes_1.png",
+    "Summary": "Victor Hypernano X Shoes",
+    "Type": {
+      "Id": "63ca5d4bc3a8a58f47299f97",
+      "Name": "Shoes"
+    },
+    "Brand": {
+      "Id": "63ca5e59065163c16451bd73",
+      "Name": "Victor"
+    }
+  },
+  {
+    "Id": "602d2149e773f2a3998b4824",
+    "Name": "Adidas Barricade Racket Tennis",
+    "Description": "Balanced racket offering control and comfort for all-court players.",
+    "Price": 2700,
+    "ImageFile": "images/products/adidas_racket_1.png",
+    "Summary": "Adidas Barricade Racket Tennis",
+    "Type": {
+      "Id": "63ca5d6d958e43ee1cd375fe",
+      "Name": "Rackets"
+    },
+    "Brand": {
+      "Id": "63ca5e40e0aa3968b549af53",
+      "Name": "Adidas"
+    }
+  }
+]
