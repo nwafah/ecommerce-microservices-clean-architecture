@@ -1,24 +1,59 @@
-# Ecommerce Microservices (Clean Architecture)
+# 🛒 Ecommerce Microservices (Clean Architecture)
 
-Learning project for building microservices using **ASP.NET Core** and **Clean Architecture**.
+Hands-on learning project for building **E-commerce Microservices** using **ASP.NET Core**, **Clean Architecture**, and **Docker**.
 
-## ✅ Services
-- **Catalog API** (ASP.NET Core Web API)
-- **MongoDB** (Catalog Database)
+The goal of this project is to practice **real-world backend architecture**, service separation, and scalable microservices design.
 
-## 📁 Project Structure
-- `services/catalog/`
+---
+
+## 🧱 Architecture Overview
+
+- Microservices-based architecture
+- Clean Architecture per service
+- Database per service
+- Cache-first design where applicable
+- Dockerized local development environment
+
+---
+
+## ✅ Implemented Services
+
+### 📦 Catalog Service
+- ASP.NET Core Web API
+- MongoDB (NoSQL)
+- Clean Architecture layers:
   - `Catalog.API`
   - `Catalog.Application`
   - `Catalog.Core`
   - `Catalog.Infrastructure`
-- `docker-compose.yml`
+
+### 🛒 Basket Service
+- ASP.NET Core Web API
+- Redis (In-Memory Cache)
+- Clean Architecture layers:
+  - `Basket.API`
+  - `Basket.Application`
+  - `Basket.Core`
+  - `Basket.Infrastructure`
+- Shopping Cart & Checkout domain models
+- Repository abstraction (`IBasketRepository`)
 
 ---
 
-## 🚀 Run with Docker Compose
+## 📁 Project Structure
 
-From the project root:
-
-```bash
-docker compose up --build
+```text
+services/
+ ├── catalog/
+ │   ├── Catalog.API
+ │   ├── Catalog.Application
+ │   ├── Catalog.Core
+ │   └── Catalog.Infrastructure
+ │
+ ├── basket/
+ │   ├── Basket.API
+ │   ├── Basket.Application
+ │   ├── Basket.Core
+ │   └── Basket.Infrastructure
+ │
+docker-compose.yml
