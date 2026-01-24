@@ -17,9 +17,12 @@ namespace Catalog.Infrastructure.Data.Contexts
             var client = new MongoClient(configuration["DatabaseSettings:ConnectionString"]);
             var database = client.GetDatabase(configuration["DatabaseSettings:DatabaseName"]);
 
-            Brands = database.GetCollection<ProductBrand>("DatabaseSettings:BrandsCollection");
-            Types = database.GetCollection<ProductType>("DatabaseSettings:TypesCollection");
-            Products = database.GetCollection<Product>("DatabaseSettings:ProductsCollection");
+            var brandsCollectionName = configuration["DatabaseSettings:BrandsCollection"];
+            Brands = database.GetCollection<ProductBrand>(brandsCollectionName);
+            var typesCollectionName = configuration["DatabaseSettings:TypesCollection"];
+            Types = database.GetCollection<ProductType>(typesCollectionName);
+            var productsCollectionName = configuration["DatabaseSettings:ProductsCollection"];
+            Products = database.GetCollection<Product>(productsCollectionName);
 
             _ = BrandContextSeed.SeedDataAsync(Brands);
             _ = TypeContextSeed.SeedDataAsync(Types);

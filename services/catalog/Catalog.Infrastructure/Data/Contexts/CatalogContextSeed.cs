@@ -12,7 +12,7 @@ namespace Catalog.Infrastructure.Data.Contexts
             if (hasBrand)
                 return;
 
-            var filePath = Path.Combine("Data", "SeedData", "products.json");
+            var filePath = Path.Combine(AppContext.BaseDirectory, "Data", "SeedData", "products.json");
 
             if (!File.Exists(filePath))
             {

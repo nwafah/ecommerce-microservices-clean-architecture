@@ -12,7 +12,7 @@ namespace Catalog.Infrastructure.Data.Contexts
             if (hasType)
                 return;
 
-            var filePath = Path.Combine("Data", "SeedData", "types.json");
+            var filePath = Path.Combine(AppContext.BaseDirectory, "Data", "SeedData", "types.json");
 
             if (!File.Exists(filePath))
             {
