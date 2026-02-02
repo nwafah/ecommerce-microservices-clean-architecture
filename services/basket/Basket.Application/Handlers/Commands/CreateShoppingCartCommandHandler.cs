@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Basket.Application.Commands;
 using Basket.Application.Responses;
+using Basket.Core.Entities;
 using Basket.Core.Repositories;
 using MediatR;
 
@@ -21,10 +22,12 @@ namespace Basket.Application.Handlers.Commands
         public async Task<ShoppingCartResponse> Handle(CreateShoppingCartCommand request, CancellationToken cancellationToken)
         {
             //TODO : will integrate with discount service
+            ShoppingCart entityShoppingCart = new();
+            entityShoppingCart.UserName = request.UserName;
+
             var shoppingCart = await _basketRepository.UpdateBasketAsync(new Core.Entities.ShoppingCart()
             {
                 UserName = request.UserName,
-                Items = request.Items.ToList(),
             });
         }
     }
