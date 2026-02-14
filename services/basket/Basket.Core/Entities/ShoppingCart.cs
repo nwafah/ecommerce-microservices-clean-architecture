@@ -2,10 +2,9 @@
 {
     public class ShoppingCart
     {
-        public string UserName { get; set; } = string.Empty;
+        public string UserName { get; private set; } = string.Empty;
         public List<ShoppingCartItem> Items { get; private set; } = new();
 
-        public ShoppingCart() { }
         public ShoppingCart(string userName) => UserName = userName;
 
         public void AddItem(string productId, string productName, decimal unitPrice, int quantity, string imageUrl)

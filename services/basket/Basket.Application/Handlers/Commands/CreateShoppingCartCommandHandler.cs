@@ -19,16 +19,19 @@ namespace Basket.Application.Handlers.Commands
             _basketRepository = basketRepository;
             _mapper = mapper;
         }
+
         public async Task<ShoppingCartResponse> Handle(CreateShoppingCartCommand request, CancellationToken cancellationToken)
         {
             //TODO : will integrate with discount service
-            ShoppingCart entityShoppingCart = new();
-            entityShoppingCart.UserName = request.UserName;
-
-            var shoppingCart = await _basketRepository.UpdateBasketAsync(new Core.Entities.ShoppingCart()
+            ShoppingCart entityShoppingCart = new(request.UserName);
+            foreach (var item in request.Items)
             {
-                UserName = request.UserName,
-            });
+                entityShoppingCart.AddItem(item.ProductId, item.ProductName, item.UnitPrice, item.Quantity, item.ImageFile);
+            }
+            var shoppingCart = await _basketRepository.UpdateBasketAsync(entityShoppingCart);
+
+            return _mapper.Map<ShoppingCartResponse>(shoppingCart);
         }
+
     }
 }
